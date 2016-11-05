@@ -5,16 +5,33 @@
     <title>GeekHub</title>
     <style type="text/css">
         div {
-            width: 700px;
+            width: 750px;
             padding: 10px;
+        }
+        .long {
+            font-style: italic;
+            font-size: 16pt;
+        }
+        .position {
+            text-align: center;
+        }
+        .alignment {
+            text-align: right;
+        }
+        .leftpic {
+            float: left;
+            margin: 0 15px 5px 5px;
+        }
+        .centerpic {
+            text-align: center;
         }
     </style>
 </head>
 <body>
 <div>
-    <div text align="center">
+    <div class="position">
     <h1>The Darknet and the Future of Content Distribution</h1>
-        <big><i>Peter Biddle, Paul England, Marcus Peinado, and Bryan Willman</i></big>
+        <p class="long">Peter Biddle, Paul England, Marcus Peinado, and Bryan Willman</p>
         <p><b>Microsoft Corporation</b></p>
     </div>
     <div>
@@ -31,7 +48,7 @@
             content can be distributed illegally.  Copyright law governs the legality of copying and distribution
             of such valuable data, but copyright protection is increasingly strained in a world of programmable
             computers and high-speed networks.</p>
-        <p text align="center"><i>For example, consider the staggering burst of creativity by authors of computer programs that
+        <p class="position"><i>For example, consider the staggering burst of creativity by authors of computer programs that
             are designed to share audio files.  This was first popularized by Napster, but today several popular
             applications and services offer similar capabilities.  CD-writers have become mainstream,
             and DVD-writers may well follow suit.  Hence, even in the absence of network connectivity,
@@ -69,8 +86,9 @@
             threshold at which storing large numbers of audio files was no longer an obstacle to mainstream users.
             Additionally, the power of computers had crossed the point at which they could be used as rendering
             devices for multimedia content. Finally, “CD ripping” became a trivial method for content injection.</p>
-        <p>
-        <img src="http://tn.new.fishki.net/26/upload/post/201405/08/1267289/84665409.jpg" alt="img Перед полётом снять" title="img" align="left" width="225" height="163">
+        <br>
+        <img src="http://tn.new.fishki.net/26/upload/post/201405/08/1267289/84665409.jpg"
+             alt="img Перед полётом снять" title="img" width="225" height="163" class="leftpic">
             <b><i>The first embodiments of this new darknet were central internet servers with large
             collections of MP3 audio files. A fundamental change that came with these servers was
             the use of a new distribution network: The internet displaced the sneaker net –
@@ -83,15 +101,15 @@
             by all users. The main characteristic of this form of the darknet was centralized storage and search –
             a simple architecture that mirrored mainstream internet servers.
             </p>
-        </p>
     </div>
     <div>
     <h2>2.2 Central Internet Servers</h2>
-        <p align="right">Centralized or quasi-centralized distribution and service networks make sense for legal online commerce.
+        <p class="alignment">Centralized or quasi-centralized distribution and service networks make sense for legal online commerce.
             Bandwidth and infrastructure costs tend to be low, and having customers visit a commerce site means the
             merchant can display adverts, collect profiles, and bill efficiently.  Additionally, management,
             auditing, and accountability are much easier in a centralized model.</p>
-    <img src="http://img-fotki.yandex.ru/get/9318/137106206.39e/0_cdda3_e3cf4de3_orig.jpg" alt="img mouse" title="img" width="225" height="163" text align="center">
+    <p class="centerpic"><img src="http://img-fotki.yandex.ru/get/9318/137106206.39e/0_cdda3_e3cf4de3_orig.jpg"
+         alt="img mouse" title="img" width="225" height="163"></p>
         <p>However, centralized schemes work poorly for illegal object distribution because large,
             central servers are large single points of failure: If the distributor is breaking the law,
             it is relatively easy to force him to stop.  Early MP3 Web and FTP sites were commonly
